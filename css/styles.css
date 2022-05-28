@@ -12,7 +12,7 @@
 }
 
 .vmodal.open .modal-window {
-	transform: translateY(100px);
+	transform: translateY(200px);
 }
 .vmodal.open .modal-overlay {
 	background: rgba(0, 0, 0, 0.5);
@@ -42,7 +42,7 @@
 .modal-window {
 	width: 600px;
 	border-radius: 5px;
-	margin: 0px auto;
+	margin: 200px auto;
 	background: #fff;
 	transform: traslateY(-200px);
 	transition: transform 0.2s ease-in;
@@ -69,9 +69,7 @@
 	padding: 5px 10px;
 	border-top: 1px solid #eee;
 }
-.true {
-    opacity: 1;
-}
-.false{
-    opacity: 0;
+.modal-footer button{
+	margin-right: 15px;
+	width: 100px;
 }
